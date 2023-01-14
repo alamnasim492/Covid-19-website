@@ -1,0 +1,97 @@
+body {
+    background-image: linear-gradient(to right bottom, #e62121,#0b0a0a);
+    }
+    h1{
+        font-weight: 1900;
+        color: black;
+        font-family:'Georgia, serif';
+        text-transform: uppercase;
+    
+     }
+.CovidData {
+    display: grid;
+    place-items: center;
+    background-image: linear-gradient(to right bottom, 	#71eded, #b00cb0);
+    width: 50%;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 6px;
+    padding: 50px;
+ }
+ 
+
+
+ .CovidData_form {
+    padding: 10px;
+    margin: 20px;
+    }
+    .CovidData_input input {
+    width: 190px;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .CovidData_input button {
+        width: 190px;
+        margin-top: 10px;
+        background-color:white;
+        color: black;
+        font-size:18px;
+        border-radius: 10px;
+        border: none;
+        box-shadow: 5px 5px 5px rgb(71, 67, 67);
+        cursor: pointer;
+        height: 50px;
+    }
+.CovidData_Country_info{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    height: auto;
+    padding-left: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: linear-gradient(to right bottom,#6bf16b,#FAEBD7 );
+    margin-top: 20px;
+    padding: 2px;
+    text-shadow: 1px 1px 1px rgb(71, 67, 67);
+    box-shadow: 5px 5px 5px rgb(71, 67,67)
+}
+p{
+    display: grid;
+    place-items: center;
+}
+@media (max-width: 500px) {
+  
+    .CovidData {
+      
+        width: 72%;
+        margin: auto;
+        margin-top: 15px;
+        border-radius: 6px;
+        padding: 50px;
+
+     }
+     .CovidData_Country_info {
+        width: 255px;
+        padding: 2px;
+        font-size: 20px;
+        font-weight: 500;
+        border-radius: 10px;
+        padding-left: 10px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-image: linear-gradient(to right bottom,#87f087,#FAEBD7 );
+        padding: 2px;
+        text-shadow: 1px 1px 1px rgb(71, 67, 67);
+        box-shadow: 5px 5px 5px rgb(71, 67,67)
+    }
+    h1 {
+        text-align: center;
+    }
+     
+    }
